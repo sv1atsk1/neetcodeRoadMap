@@ -2,6 +2,8 @@ package by.viachaslau;
 
 import java.util.HashSet;
 
+//Time Complexity: O(1) since we always process a fixed number (81) of cells (9x9).
+//Space Complexity: O(1) for the same reason; the space used for sets is also constant, as there are at most 9 entries per set.
 public class Solution {
     public boolean isValidSudoku(char[][] board) {
         HashSet<String>[] rows = new HashSet[9];
