@@ -2,6 +2,8 @@ package by.viachaslau;
 
 import java.util.HashMap;
 
+//Space Complexity - O(m), m - number of unique characters;
+//Time Complexity - O(n);
 public class Solution {
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> charCount = new HashMap<>();
