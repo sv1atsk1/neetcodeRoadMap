@@ -1,5 +1,8 @@
 package by.viachaslau;
 
+//Space Complexity - 0(1);
+//Time Complexity - O(log(n));
+
 public class Solution {
     public int findMin(int[] nums) {
         int l = 0;
