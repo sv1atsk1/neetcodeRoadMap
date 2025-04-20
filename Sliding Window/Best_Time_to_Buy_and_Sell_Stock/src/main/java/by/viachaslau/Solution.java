@@ -1,5 +1,8 @@
 package by.viachaslau;
 
+//Space Complexity - 0(1);
+//Time Complexity - O(N);
+
 public class Solution {
     public int maxProfit(int[] prices) {
         int left = 0;
